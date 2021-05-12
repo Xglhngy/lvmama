@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>丝芙兰注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="root">
+        <div class="register-wrap">
+            <div class="welcome-register clearfix">
+               <a href="index.html"><img src="images/search_logo.png" alt=""></a> 
+                <span>欢迎注册</span>
+                <ul>
+                    <li>已有账号？</li>
+                    <li><a href="login.html">立即登录</a></li>
+                </ul>
+            </div>
+            <div class="register-content-wrap">
+                <div class="register-main-content">
+                    <div class="register-main-content-info">
+                        <div class="register-info-box phone-box">
+                            <div class="phone  clearfix rela">
+                                <span>手机号</span>
+                                <input type="text" placeholder="请输入你的手机号" class="name" data-flag="">
+                                <div class="err err-phone"></div>
+                            </div>
+                            <div class="password rela">
+                                <span>输入密码</span>
+                                <input type="password" placeholder="6~16位大小写英文字母、数字或符号的组合" class="paw-phone" data-flag="">
+                                <div class="err paw-err-phone"></div>
+                            </div>
+                            <div class="confirm-password rela">
+                                    <span>确认密码</span>
+                                    <input type="password" placeholder="请再次输入密码" class="confirm-paw-phone" data-flag="">
+                                    <div class="err paw-confirm-err-phone"></div>
+                            </div>
+                            <div class="phone-agree">同意条款并注册</div>
+                            <div class="article clearfix">
+                                <span><a href="help-index.html">阅读丝芙兰用户协议</a></span>
+                                <ul>
+                                    <li class="toggle">使用邮箱注册></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="register-info-box email-box hide">
+                            <div class="email clearfix rela">
+                                    <span>邮箱</span>
+                                    <input type="email" placeholder="请输入你的邮箱" class="mail" data-flag="">
+                                    <div class="err err-email"></div>
+                                </div>
+                                <div class="password rela">
+                                    <span>输入密码</span>
+                                    <input type="password" placeholder="6~16位大小写英文字母、数字或符号的组合" class="paw-email" data-flag="">
+                                    <div class="err paw-err-email"></div>
+                                </div>
+                                <div class="confirm-password rela">
+                                        <span>确认密码</span>
+                                        <input type="password" placeholder="请再次输入密码" class="confirm-paw-email" data-flag="">
+                                        <div class="err paw-confirm-err-email"></div>
+                                </div>
+                                <div class="email-agree">同意条款并注册</div>
+                                <div class="article">
+                                    <span><a href="###">阅读丝芙兰用户协议</a></span>
+                                    <ul>
+                                        <li class="toggle">使用手机注册></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="worning-wrap">
+        <div class="worning">
+            注册成功，正在调转至登录页面...
+        </div>
+    </div>
+    
+</body>
+<script src="js/register.js"></script>
+</html>

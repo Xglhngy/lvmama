@@ -1,0 +1,18 @@
+html,body,div,p,a,span,h1,h2,h3,h4,h5,h6,ul,ol,li,i,em,strong,
+input,form,select,table,tr,td,th,b,img,dl,dd,dt,caption,fieldset,
+legend,hr,br,option,textarea,label{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	float-size:14px;
+	font-family:'Microsoft YaHei' ,Arial ;
+}
+ ul,ol,li{
+ 	list-style: none;
+ }
+ a{
+ 	text-decoration: none;
+    color: black;
+ }

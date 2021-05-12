@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+	::-webkit-input-placeholder { color:initial; }
+    ::-moz-placeholder { color:initial; } /* firefox 19+ */
+    :-ms-input-placeholder { color:initial; }
+a{
+	text-decoration: none;
+	color:#919191;
+}
+img{
+	border:none;
+}
+.clearfix:after{
+	content:".";
+	height: 0;
+	clear:both;
+	visibility: hidden;
+	display: block;
+}
+.logain-top{
+	width:100%;
+}
+.body,.logain-top,.logain-banner,.logain-bottom{
+	min-width: 1190px;
+}
+.banner{
+	width: 1190px;
+	margin:0 auto;
+}
+.logoshow{
+	height: 89px;
+	overflow: hidden;
+}
+.logo{
+	margin: 28px 0 0;
+}
+.logain-banner{
+	width: 100%;
+	height: 610px;
+	background:url(../images/hp_loginlage_20181011.jpg)  no-repeat scroll 50%;
+}
+.imgshow{
+	height: 610px;
+	position: relative;
+}
+.logain-main{
+	width: 360px;
+	height: 380px;
+	background:white;
+	position: absolute;
+	z-index: 2;
+	margin:115px 0 0 800px;
+}
+.logain-tex{
+	width: 300px;
+	height: 380px;
+	margin-left: 30px;
+}
+.header{
+	width: 100%;
+	height: 20px;
+	margin-top: 26px;
+}
+.prompt{
+	width: 298px;
+	height: 30px;
+	line-height: 30px;
+	font-size:12px;
+	color:red;
+	margin-bottom: 10px;
+}
+.prompt img{
+	margin: 9px 4px 0 0;
+	display: none;
+	float:left;
+}
+.seachbox{
+	width: 298px;
+	height: 30px;
+	border:1px solid #aaa;
+	position: relative;
+}
+.middle{
+	width:20px;
+	position: absolute;
+	height: 20px;	
+	margin-left: 7px;
+}
+.bck1{
+	margin-top: 6px; 
+	background: url(../images/11_03.jpg);
+}
+.bck2{
+	margin-top: 5px; 
+	background: url(../images/11-01.jpg);
+}
+.user,.pwd{
+	outline: none;
+	border:none;
+	width: 260px;
+	padding-left: 35px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: initial;
+}
+.second{
+	margin-top: 20px;
+}
+.second .img,.first .img{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	margin: 7px 0 0 270px;
+}
+.second img,.first img{
+	border:none;
+}
+.seachbox:hover{
+	border-bottom: 1px solid black;
+}
+.logain-tex p a{
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 12px;
+}
+.logain-tex p a:hover{
+	color: red;
+}
+.btn{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #999;
+	font-size: 16px;
+	color:white;
+	cursor: pointer;
+}
+.lastleft{
+	width: 100px;
+	height: 50px;
+	float: left;
+}
+.lastleft li{
+	list-style: none;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-top: 13px;
+	margin-left: 10px;
+	opacity:0.2;
+}
+.lastleft li:hover{
+	opacity: 1;
+}
+.lastleft li:first-child{
+	margin-left: 0;
+}
+.smsm{
+	margin:22px 0 0 6px;
+	float: right;
+	height: 0;
+	width: 0;
+	bottom: 0;
+	border-top: 4px solid transparent;
+	border-bottom:  4px solid transparent;
+	border-left:4px solid red;
+}
+.lastright{
+	float: right;
+	height: 50px;
+	width: 120px;
+	font-size: 12px;
+	color:#919191;
+	
+}
+.lastright a{
+	font-size: 12px;
+	color: red;
+}
+.lastright a:hover{
+	text-decoration: underline;
+}
+/* 底部修饰 */
+.logain-bottom{
+	width: 100%;
+	height: 102px;
+	background: black;
+}
+.police{
+	height: 42px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.list-bottom{
+	float: left;
+	width: 760px;
+	margin: 0 auto;
+	height: 42px;
+	margin-left: 118px;
+	padding-left: 22px;
+	padding-right: 22px;
+	list-style: none;
+}
+.list-bottom li{
+	height: 21px;
+	color:#6f6f6f;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+}
+.list-bottom li a{
+	display: inline-block;
+	font-size: 14px;
+	color:#6f6f6f;
+	height: 16px;
+	margin-left: 22px;
+	margin-right: 22px;
+}
+.list-bottom li:last-child{
+	font-size: 12px;
+
+}
+.list-bottom li .bcka{
+	height: 16px;
+	line-height: 16px;
+	padding-left: 30px;
+	background:url(../images/police.png) no-repeat;
+}
+

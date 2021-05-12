@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(max-width:1440px) {
+
+    .banner {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    /* 顶部内容修饰 */
+    .page {
+        width: 1000px;
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        margin-left: -500px;
+    }
+
+    /* 美丽世界子页面修饰 */
+    .page-top {
+        margin-top: 24.5px;
+        height: 65px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .sideleft {
+        margin-left: 40px;
+        margin-top: 36px;
+        float: left;
+    }
+
+    .sideleft li {
+        height: 14px;
+        list-style: none;
+        float: left;
+        height: 14px;
+        line-height: 14px;
+    }
+
+    .sideleft li:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    .sideleft li:nth-child(3),
+    .sideleft li:nth-child(5) {
+        margin: 0 15px;
+        font-size: 12px;
+        color: #808081;
+    }
+
+    .sideleft li:last-child {
+        margin-left: 30px;
+    }
+
+    .sideleft li .cn {
+        color: white;
+    }
+
+    .sideleft li a {
+        color: #808081;
+        font-size: 12px;
+    }
+
+    .sideleft li a:hover {
+        color: #fff;
+    }
+
+    .logo {
+        float: right;
+        display: block;
+        margin-top: 20px;
+        margin-right: 66px;
+    }
+
+    .page-banner {
+        margin-top: 32px;
+        width: 1000px;
+        height: 467px;
+        position: relative;
+        background: white;
+        overflow: hidden;
+    }
+
+    .page-content {
+        width: 330px;
+        height: auto;
+        margin: 50px 0 0 90px;
+        position: relative;
+    }
+
+    .page-content img {
+        width: 260px;
+    }
+
+    /* 美丽世界子页面导航栏修饰、 */
+    .page-nav {
+        margin-top: 8px;
+        width: 329px;
+        height: 20px;
+    }
+
+    .page-nav li {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        list-style: none;
+        margin-left: 45px;
+    }
+
+    .page-nav li a {
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .page-nav li:hover a {
+        color: red;
+    }
+
+    .page-nav1 {
+        color: red;
+    }
+
+    .under_line {
+        background: #646464;
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+        width: 265px;
+        height: 4px;
+        margin-left: 45px;
+    }
+
+    .move_line {
+        width: 71px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    .page-img1 {
+        position: absolute;
+        display: inline-block;
+        width: 360px;
+        top: 0;
+        right: 0;
+    }
+
+    .page-img2 {
+        position: absolute;
+        display: inline-block;
+        top: 100px;
+        width: 392px;
+        right: 100px;
+    }
+
+    .page-img3 {
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        left: 200px;
+        width: 528px;
+    }
+
+    .subbox {
+        width: 462px;
+        height: 80px;
+        background: black;
+    }
+
+    .smallbox {
+        height: 80px;
+        margin-left: 135px;
+    }
+
+    .smallbox img {
+        margin-top: 4px;
+        height: 73px;
+        float: left;
+    }
+
+    .sub_menu {
+        float: left;
+        margin-top: 5px;
+        height: 73px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu div a:hover {
+        color: red;
+    }
+}
+
+@media(min-width:1440px) {
+
+    .banner {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    /* 顶部内容修饰 */
+    /* 美丽世界子页面修饰 */
+    .page {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        margin-left: -720px;
+        width: 1440px;
+    }
+
+    .page-top {
+        margin-top: 24.5px;
+        height: 65px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .sideleft {
+        margin-left: 40px;
+        margin-top: 36px;
+        float: left;
+    }
+
+    .sideleft li {
+        height: 14px;
+        list-style: none;
+        float: left;
+        height: 14px;
+        line-height: 14px;
+    }
+
+    .sideleft li:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    .sideleft li:nth-child(3),
+    .sideleft li:nth-child(5) {
+        margin: 0 15px;
+        font-size: 12px;
+        color: #808081;
+    }
+
+    .sideleft li:last-child {
+        margin-left: 30px;
+    }
+
+    .sideleft li .cn {
+        color: white;
+    }
+
+    .sideleft li a {
+        color: #808081;
+        font-size: 12px;
+    }
+
+    .sideleft li a:hover {
+        color: #fff;
+    }
+
+    .logo {
+        float: right;
+        display: block;
+        margin-top: 20px;
+        margin-right: 66px;
+    }
+    .page-banner {
+        margin-top: 32px;
+        width: 1440px;
+        height: 642px;
+        position: relative;
+        background: white;
+        overflow: hidden;
+    }
+
+    .page-content {
+        width: 330px;
+        height: auto;
+        margin: 96px 0 0 124px;
+        position: relative;
+    }
+
+    /* 美丽世界子页面导航栏修饰、 */
+    .page-nav {
+        margin-top: 8px;
+        width: 329px;
+        height: 20px;
+    }
+
+    .page-nav li {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        list-style: none;
+        margin-left: 31px;
+        cursor: pointer;
+    }
+
+    .page-nav li a {
+        font-size: 18px;
+        color: black;
+    }
+
+    .page-nav li:hover a {
+        color: red;
+    }
+
+    .page-nav1 {
+        color: red;
+    }
+
+    .under_line {
+        background: #646464;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        width: 289px;
+        height: 4px;
+        margin-left: 26px;
+    }
+
+    .move_line {
+        width: 71px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    .page-img1 {
+        position: absolute;
+        display: inline-block;
+        width: 468px;
+        height: 118px;
+        top: 0;
+        right: 0;
+    }
+
+    .page-img2 {
+        position: absolute;
+        display: inline-block;
+        top: 100px;
+        width: 624px;
+        height: 475px;
+        right: 100px;
+    }
+
+    .page-img3 {
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        left: 200px;
+        width: 771px;
+        height: 190px;
+    }
+
+    .subbox {
+        width: 600px;
+        height: 98px;
+        background: black;
+    }
+
+    .smallbox {
+        height: 98px;
+        margin-left: 149px;
+    }
+
+    .smallbox img {
+        margin-top: 5px;
+        height: 85px;
+        float: left;
+    }
+
+    .sub_menu {
+        float: left;
+        margin-top: 5px;
+        height: 80px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu div a:hover {
+        color: red;
+    }
+}
