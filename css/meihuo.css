@@ -1,0 +1,36 @@
+.mmp{width: 100%;}
+.warp{ width: 1190px;margin: 0 auto;}
+.sh-le,.sh-ri{height: 60px;line-height: 60px;}
+.sh-le{float: left;}
+.sh-ri{float: right;}
+.pin-le{float: left;width: 10%;}
+.pin-co{float: left;width: 918px;position: relative;}
+.pin-ri{float: left;margin-left: 40px;}
+.warp-2{padding: 40px 0;border-top: 1px solid black;border-bottom: 1px solid black;}
+.pipa{margin-left: 10px;font-weight: bold;font-size: 14px;}
+.sou{width: 170px;height: 22px;line-height: 22px;font-size: 12px;text-indent: 15px;display: none;}
+.icon-1{background: url(../images/sou.png);width: 1px;height: 11px;display: block;position: absolute;left: 3px;top: 8px;display: none;}
+.imges{width: 100%;}
+.shou:hover{color: red;}
+.imge2{border-bottom: 1px solid #dddddd;border-right: 1px solid #dddddd;margin-top: 20px;}
+.imge2 li{width: 130px;height: 53px;border-left: 1px solid #dddddd;border-top: 1px solid #dddddd;float: left;position: relative;}
+.imge2 li img{width: 100%;height: 100%;}
+.imge2 li a{position: absolute;;left: 0;top: 0;text-align: center;width: 130px;height: 53px;line-height: 53px;overflow: auto;color: white;background: rgba(0, 0, 0, .8);display: none;}
+.imge2 li:hover a{display: block;}
+.yi{font-weight: bold;display:none;}
+.er,.er1{width: 100%;display: none;}
+.er span,.er1 span{width: 60px;height: 22px;text-align: center;line-height: 22px;display: block;float: left;}
+.yes{margin-left: 400px;color: white;background: black;}
+.noto,.no{color: #999;background: #eee;margin-left: 20px;}
+.icon-2{width: 10px;height: 10px;background: url(../images/jinfling.png);background-position: -37px -54px;transition: all 0.4s;padding-right: 10px;display: block;float: left;margin-top: 5px;}
+/* 。。。。。。。。。。。。。。。。。。。。。。。。。以上为品牌内容修饰、、、、、、、、、、、、、、、、、、 */
+.fen{border-bottom: 1px solid #ddd;}
+.fen ul li{float: left;height: 30px;padding-top: 10px;width: 130px;}
+.fen ul li:last-child{float: right;padding-right: 60px;width: 50px;}
+.fen ul li:first-child{margin-left: 20px;}
+.fen ul{width: 100%;}
+.dian:hover .icon-2{background-position: -37px -64px;}
+.dian:hover .duo{color: red;}
+#dian:hover .icon-2{background-position: -37px -64px;}
+#dian:hover .duo{color: red;}
+/* .er1{padding-bottom: 10px;} */

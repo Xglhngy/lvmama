@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        var id=window.location.search;
+       console.log(id);
+        var reg=/^\?id=([\d]+)$/;
+        id=id.match(reg)[1];
+        
+         $.ajax({
+             url:"php/index.php",
+             type:"post",
+             data:"id="+id,
+             dataType:"json",
+             success:function(data){
+                 console.log(data);
+                //  console.log(JSON.parse(data));
+                var str="";
+                str="<li>"+data[0].brand+"</li>"
+                    +"<li>￥"+data[0].desc+"</li>"
+                    +"<li>￥"+data[0].price+"</li>"
+                    +"<li><img src='images/"+data[0].img+"'></li>";
+                $("#box").html(str);
+             }
+         })
+    </script>
+    <ul id="box"></ul>
+</body>
+</html>

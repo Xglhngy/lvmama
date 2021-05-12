@@ -1,0 +1,136 @@
+.video-ral{
+    position:relative;
+}
+.video-abs{
+    height:650px;
+    width:1190px;
+    background-color:black;
+    position:absolute;
+    top:0px;
+    left:365px;
+    line-height:600px;
+    text-align: center;
+}
+video{
+    height:400px; width:600px; 
+    margin:0 auto;
+    margin-top: 150px;
+}
+source{
+    height:650px;
+    width:1190px;
+}
+/* .video-banner-h{
+   margin-left: -1056px;
+} */
+#playorstop{
+    border:none;
+    outline: none;
+    background:none;
+    height:120px;
+    width:120px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-60px;
+    margin-top:-60px;
+    color:red;
+}
+.video-ral{
+    position:relative;
+}
+.video-abs{
+    height:650px;
+    width:1190px;
+    background-color:black;
+    position:absolute;
+    top:0px;
+    left:365px;
+    line-height:600px;
+    text-align: center;
+}
+video{
+    height:400px; width:600px; 
+    margin:0 auto;
+    margin-top: 150px;
+}
+source{
+    height:650px;
+    width:1190px;
+}
+
+#playorstop{
+    border:none;
+    outline: none;
+    background:none;
+    height:120px;
+    width:120px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-60px;
+    margin-top:-60px;
+    color:red;
+}
+/* ********************************上面的视频 */
+.video-banner{
+    width:1190px;
+    margin:0 auto;
+    /* background:cyan; */
+    display:table;
+    position: relative;
+}
+.left,.right{
+    width:67px;
+    height:60px;
+    /* background:pink; */
+    font-size:60px;
+    text-align: center;
+    position: absolute;
+    top:202px;
+    cursor: pointer;
+}
+.right{
+    right:0; 
+}
+.video-banner-v{
+    margin:0 auto;
+    /* background-color:red; */
+    width:1056px;
+    height:448px;
+    position: relative;
+    overflow: hidden;
+}
+.video-banner-h{ 
+     width:2816px;
+}
+.video-banner-hua{
+    float:left;
+    text-align: center;
+    width:352px;
+    /* background:gray; */
+}
+.video-banner-hua img{
+    margin-top:20px;
+}
+.video-banner-hua p{
+    height:30px;
+    line-height: 30px;
+    font-weight:600;
+}
+.video-banner-hua-a {
+    height:50px;
+    line-height: 50px;
+    font-size:18px;
+}
+.video-banner-hua-b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 250px;
+    height: 40px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+}
+

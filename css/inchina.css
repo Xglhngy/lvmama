@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+html {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@media(min-width:1440px) {
+    .banner {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .page {
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        margin-left: -720px;
+        width: 1440px;
+    }
+
+    /* 顶部内容修饰 */
+    .page-top {
+        margin-top: 24.5px;
+        height: 65px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .sideleft {
+        margin-left: 40px;
+        margin-top: 36px;
+        float: left;
+    }
+
+    .sideleft li {
+        height: 14px;
+        list-style: none;
+        float: left;
+        height: 14px;
+        line-height: 14px;
+    }
+
+    .sideleft li:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    .sideleft li:nth-child(3),
+    .sideleft li:nth-child(5) {
+        margin: 0 15px;
+        font-size: 12px;
+        color: #808081;
+    }
+
+    .sideleft li:last-child {
+        margin-left: 30px;
+    }
+
+    .sideleft li .cn {
+        color: white;
+    }
+
+    .sideleft li a {
+        color: #808081;
+        font-size: 12px;
+    }
+
+    .sideleft li a:hover {
+        color: #fff;
+    }
+
+    .logo {
+        float: right;
+        display: block;
+        margin-top: 20px;
+        margin-right: 66px;
+    }
+
+    .banner_tab {
+        height: 740px;
+        position: absolute;
+        top: 100px;
+        background: white;
+    }
+
+    .page-content {
+        width: 330px;
+        height: auto;
+        margin: 160px 0 0 134px;
+        position: relative;
+    }
+
+    /* 美丽世界子页面导航栏修饰、 */
+    .page-nav {
+        margin-top: 8px;
+        width: 329px;
+        height: 20px;
+    }
+
+    .page-nav li {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        list-style: none;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .page-nav li a {
+        font-weight: bold;
+        font-size: 18px;
+        color: black;
+    }
+
+    .page-nav li:hover a {
+        color: red;
+    }
+
+    .page-nav li .page-nav1 {
+        color: red;
+    }
+
+    .under_line {
+        background: #aaa;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        width: 289px;
+        height: 2px;
+        margin-left: 26px;
+    }
+
+    .move_line {
+        width: 80px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 2px;
+        background: red;
+    }
+
+
+    .subbox {
+        width: 600px;
+        height: 98px;
+    }
+
+    .smallbox {
+        height: 98px;
+        margin-left: 160px;
+    }
+
+    .smallbox img {
+        margin-top: 5px;
+        height: 85px;
+        float: left;
+    }
+
+    .sub_menu {
+        float: left;
+        margin-top: 5px;
+        height: 80px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu div a {
+        font-size: 12px;
+        color: #333;
+        margin-top: 15px;
+    }
+
+    .sub_menu div .subred {
+        color: red;
+    }
+
+    .sub_menu div a:hover {
+        color: red;
+    }
+
+    .main {
+        top: 380px;
+        margin-left: 108px;
+        position: absolute;
+        width: 490px;
+        height: 280px;
+    }
+    .main img{
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    .main_in {
+        width: 408px;
+        height: 210px;
+        bottom:0;
+        right: 0;
+        position: absolute;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    .main_in p{
+        width: 378px;
+        height: auto;
+        font-size:12px;
+        color: #3c3c3c;
+        line-height: 1.62em;
+    }
+    .main_in::-webkit-scrollbar{
+        width: 5px;
+        height: 216px;
+        background:#aaa;
+    }
+    .main_in::-webkit-scrollbar-thumb{
+        width: 5px;
+        height:32px;
+        background:#333;
+    }
+    .box1{
+        position: absolute;
+        top:560px;
+        left:0;
+        width: 29px;
+        height: 31px;
+        background:black;
+    }
+    .box2{
+        position: absolute;
+        top:620px;
+        left:0;
+        width: 108px;
+        height: 31px;
+        background:black;
+    }
+    .topimg{
+        position: absolute;
+        top:0;
+        left:596px;
+    }
+    .map{
+        width: 644px;
+        height: 460px;
+        position: absolute;
+        top:146px;
+        right:90px;
+    }
+    .chinamap{
+        width: 534px;
+        height: 441px;
+        margin-top: 12px;
+        background:url(../images/china_map.png);
+    }
+    .year{
+        position: absolute;
+        width: 74px;
+        height: 398px;
+        top:0;
+        right:0;
+        background:url(../images/year_bg.png) no-repeat;
+    }
+    .year li{
+        list-style: none;
+        width: 74px;
+        height: 24px;
+        margin-top:30px;
+        position: relative;
+    }
+    .year li:first-child{
+        margin-top: 0;
+    }
+    .year li img{
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    .year li img:nth-child(even){
+        display: none;
+    }
+    .tip{
+        width: 534px;
+        height: 441px;
+        position: absolute;
+        display: none;
+        top:12px;
+        left:0;
+    }
+    .tip img{
+        position: absolute;
+    }
+    .tip1 img:nth-child(1){
+        top:242px;
+        right:22px;
+    }
+    .tip1 img:nth-child(2){
+        bottom:30px;
+        left:10px;
+    }
+    .tip2 img:nth-child(1){
+        left:308px;
+        top:74px;
+    }
+    .tip2 img:nth-child(2){
+        width: 200px;
+        height: 55px;
+        top:224px;
+        left:158px;
+    }
+    .tip2 img:nth-child(3){
+        bottom:-5px;
+        left:-10px;
+    }
+    .tip3 img:nth-child(1){
+        top:205px;
+        left:56px;
+    }
+    .tip3 img:nth-child(2){
+        bottom:18px;
+        left:-10px;
+    }
+    .tip4 img:nth-child(1){
+        top:175px;
+        left:250px;
+    }
+    .tip4 img:nth-child(2){
+        top:238px;
+        left:110px;
+    }
+    .tip4 img:nth-child(3){
+        bottom:112px;
+        right:138px;
+    }
+    .tip4 img:nth-child(4){
+        bottom:18px;
+        left:-10px;
+    }
+    .tip5 img:nth-child(1){
+        right:140px;
+        bottom:16px;
+    }
+    .tip5 img:nth-child(2){
+        left:-20px;
+        bottom:10px;
+    }
+    .tip6 img:nth-child(1){
+        top:242px;
+        right:22px;
+    }
+    .tip6 img:nth-child(2){
+        left:-10px;
+        bottom:0;
+    }
+    .tip7 img:nth-child(1){
+        top:190px;
+        left:230px;
+    }
+    .tip7 img:nth-child(2){
+        left:-10px;
+        bottom:15px;
+    }
+    .tip8 img:nth-child(1){
+        top:54px;
+        right:25px;
+        opacity: 0;
+    }
+    .tip8 img:nth-child(2){
+        top:145px;
+        right:66px;
+        opacity: 0;
+    }
+    .tip8 img:nth-child(3){
+        top:200px;
+        right:90px;
+        opacity: 0;
+    }
+    .tip8 img:nth-child(4){
+        top:238px;
+        right:70px;
+        opacity: 0;
+    }
+    .tip8 img:nth-child(5){
+        top:306px;
+        right:88px;
+        opacity: 0;
+    }
+    .tip8 img:nth-child(6){
+        left: -10px;
+        bottom:20px;
+    }
+}
