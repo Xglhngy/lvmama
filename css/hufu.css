@@ -1,0 +1,44 @@
+.warmp,.banner{width: 100%;} 
+.banner{background: #f5f5f5;padding-bottom: 50px;}
+.head-img{width: 1190px;height: 190px;margin: 0 auto;}
+.head-img img{display: block;}
+.ban-left{padding-top:15px;padding-bottom:70px;line-height: 22px;}
+.ban-left a{float: left;padding-right: 10px;font-size: 14px;}
+.ban-le2 a{width: 67px;height: 22px;text-align: center;line-height: 22px;border: 1px solid #dddcdc;background: white;z-index: 1;display: block;position: absolute;}
+
+.ban-le2:hover a{border-bottom: 1px solid white;color:red;}
+.ban-le2{float: left;position: relative;}
+.ban-le2:hover .hu{display: block;}
+.hu{width: 375px;height: 80px;border: 1px solid #dddcdc;background: white;position: absolute;left: 0px;top: 22px;display: none;}
+.hu li{float: left;width:88px;;margin-top: 3px;color: rgb(122, 122, 124);margin-left: 5px;}
+.hu li:hover{color: black;}
+.ban-le2 a:hover .bot-icon{background-position: 0px -42px;}
+.ban-le2 a:hover .hu{display:block;}
+.bot-icon{background: url(../images/jinfling.png);width: 9px;height: 9px;display:block;background-position: 0 -33px;float: right;margin-top: 10px;margin-right: 10px;}
+.re p,.re1 p{float: left;}
+.re p:nth-child(1),.re1 p:nth-child(1){font-weight: bold;font-size: 30px;}
+.re p:nth-child(2),.re1 p:nth-child(2){font-size: 25px;margin-top: 5px;margin-left: 10px;}
+.remen li{float: left;width: 147px;height: 60px;background: white;vertical-align: middle;padding: 8px 0px;border-left: 1px solid #f5f5f5;position: relative;}
+.zhe-zhao{position: absolute;width: 148px;height: 76px;background: rgba(0, 0, 0, 0.8);left: 0;top: 0;text-align: center;display: none;}
+.zhe-zhao p:nth-child(1){color: white;font-size: 12px;padding-top: 10px;}
+.zhe-zhao p:nth-child(2){color: white;font-size: 12px;width: 84px;height: 20px;border-radius: 10px;background: red;text-align: center;line-height: 20px;margin: 10px auto;}
+.remen li:hover .zhe-zhao{display: block;}
+.remen{margin-top: 10px;}
+.re1{margin-top: 50px;}
+.paihang,.paihang2,.paihang3{background: white;}
+.paihang li,.paihang2 li,.paihang3 li{float: left;width: 236px;height: 319px;border: 1px solid #f5f5f5;position: relative;}
+.paihang li:hover .li-zhe2,.paihang2 li:hover .li-zhe2,.paihang3 li:hover .li-zhe2{display: block;}
+.paihang li:hover,.paihang2 li:hover,.paihang3 li:hover{border: 1px solid black;}
+.li-zhe2{width: 206px;height: 32px;line-height: 32px;text-align: center;background: rgba(0, 0, 0, 0.8);margin: 170px auto;position: absolute;left: 14px;top: 0;display: none;}
+.li-zhe-sp{display: block;width: 14px;height: 18px;background: url(../images/jigouwu.png);float: left;margin-top: 6px;margin-left: 60px;}
+.li-zhe-p{float: left;color: white;font-size: 14px;margin-left: 20px;}
+.inmmge-1{padding: 10px 28px;}
+.inmmge-p1,.inmmge-p2,.inmmge-p3{padding-left: 15px;}
+.inmmge-p1{padding-top: 5px;font-weight: bold;font-size: 14px;}
+.inmmge-p3{padding-top: 5px;font-size: 13px;}
+.inmmge-p2:hover{color: red;}
+.xin-pin{display: inline-block;width: 40px;height: 15px;text-align: center;line-height: 15px;background: #e00;color: white;margin-left: 15px;margin-top: 10px;}
+.dj{display: inline-block;width: 40px;height: 15px;text-align: center;line-height: 15px;background: #2dbeff;color: white;margin-left: 15px;margin-top: 10px;}
+.zx{display: inline-block;width: 40px;height: 15px;text-align: center;line-height: 15px;background: #000;color: #eec632;margin-left: 15px;margin-top: 10px;}
+.jd{display: none;}
+.ban-left>a:nth-child(1):hover{color: red;text-decoration: underline;}

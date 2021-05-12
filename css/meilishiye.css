@@ -1,0 +1,1172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: "both";
+    visibility: hidden;
+    height: 0;
+}
+/* 适应于屏幕小于1440的布局 */
+@media(max-width:1440px) {
+
+    .banner {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    /* 最外层元素修饰 */
+    .wrap {
+        width: 1000px;
+        position: absolute;
+        margin-left: -500px;
+        left: 50%;
+        top: 4%;
+    }
+
+    /* 顶部内容修饰 */
+    .top {
+        margin-top: 24.5px;
+        height: 65px;
+        overflow: hidden;
+    }
+
+    .sideleft {
+        margin-left: 40px;
+        margin-top: 36px;
+        float: left;
+    }
+
+    .sideleft li {
+        height: 14px;
+        list-style: none;
+        float: left;
+        height: 14px;
+        line-height: 14px;
+    }
+
+    .sideleft li:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    .sideleft li:nth-child(3),
+    .sideleft li:nth-child(5) {
+        margin: 0 15px;
+        font-size: 12px;
+        color: #808081;
+    }
+
+    .sideleft li:last-child {
+        margin-left: 30px;
+    }
+
+    .sideleft li .cn {
+        color: white;
+    }
+
+    .sideleft li a {
+        color: #808081;
+        font-size: 12px;
+    }
+
+    .sideleft li a:hover {
+        color: #fff;
+    }
+
+    .logo {
+        float: right;
+        display: block;
+        margin-top: 20px;
+        margin-right: 66px;
+    }
+
+    /* 中间内容部分修饰 */
+    .content {
+        height: 280px;
+        width: 1000px;
+        background: white;
+    }
+
+    .contentleft {
+        float: left;
+        width: 490px;
+        height: 100%;
+        overflow: hidden;
+        background: #fff;
+        font-size: 0;
+        position: relative;
+    }
+
+    .contentleft img {
+        width: 490px;
+        height: 303px;
+    }
+
+    /* 小导航部分修饰 */
+    .nav {
+        color: #646464;
+        position: absolute;
+        margin-left: 140px;
+        top: 240px;
+    }
+
+    .nav li {
+        float: left;
+        list-style: none;
+        margin-left: 50px;
+    }
+
+    .nav li a {
+        color: #646464;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .nav li a:hover {
+        color: red;
+    }
+
+    /* content右边图片部分修饰 */
+    .content_right {
+        float: right;
+        height: 100%;
+        background-color: white;
+        position: relative;
+    }
+
+    /* 大背景图修饰 */
+    .big_pics {
+        width: 480px;
+        height: 100%;
+        position: relative;
+        background: white;
+        overflow: hidden;
+    }
+
+    .big_pic {
+        position: absolute;
+        width: 480px;
+        height: 422px;
+        display: none;
+        top: 0;
+        left: 0;
+    }
+
+    .big_pics:first-child {
+        display: block;
+    }
+
+    /* 小背景图修饰 */
+    .small_pics {
+        position: absolute;
+        top: 0;
+        left: 120px;
+        width: 200px;
+        height: 100%;
+        background-color: white;
+        border-left: 28px solid #f1f2f2;
+        border-right: 28px solid #f1f2f2;
+        overflow: hidden;
+    }
+
+    .small_pic {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display: none;
+        top: 0;
+        left: 0;
+    }
+
+    .small_pics:first-child {
+        display: block
+    }
+
+    /* 底部内容修饰 */
+    .foot {
+        width: 1000px;
+        height: 222px;
+        margin-top: 0;
+        perspective: 1000px;
+        position: relative;
+    }
+
+    .box {
+        align-self: flex-start;
+        margin: 0 auto;
+        font-size: 0;
+    }
+
+    .box img {
+        width: 111px;
+        height: 111px;
+        position: absolute;
+    }
+
+    /* 子页面内容修饰 */
+    .page {
+        width: 1000px;
+        margin-top: 80px;
+        display: none;
+        position: absolute;
+        top: 50%;
+        opacity: 0;
+        left: 50%;
+        margin-left: -500px;
+    }
+
+    /* 美丽世界子页面修饰 */
+    .page-top {
+        margin-top: 24.5px;
+        height: 65px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .page-banner {
+        margin-top: 32px;
+        width: 1000px;
+        height: 467px;
+        position: relative;
+        background: white;
+        overflow: hidden;
+    }
+
+    .page-content {
+        width: 330px;
+        height: auto;
+        margin: 50px 0 0 90px;
+        position: relative;
+    }
+
+    .page-content img {
+        width: 260px;
+    }
+
+    /* 美丽世界子页面导航栏修饰、 */
+    .page-nav {
+        margin-top: 8px;
+        width: 329px;
+        height: 20px;
+    }
+
+    .page-nav li {
+        float: left;
+        height: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        list-style: none;
+        margin-left: 45px;
+    }
+
+    .page-nav li:hover {
+        color: red;
+    }
+
+    .page-nav1 {
+        color: red;
+    }
+
+    .under_line {
+        background: #646464;
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+        width: 265px;
+        height: 4px;
+        margin-left: 45px;
+    }
+
+    .move_line {
+        width: 71px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    .page-img1 {
+        position: absolute;
+        display: inline-block;
+        width: 360px;
+        top: 0;
+        right: 0;
+    }
+
+    .page-img2 {
+        position: absolute;
+        display: inline-block;
+        top: 100px;
+        width: 392px;
+        right: 100px;
+    }
+
+    .page-img3 {
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        left: 200px;
+        width: 528px;
+    }
+
+    .subbox {
+        width: 462px;
+        height: 80px;
+        background: black;
+    }
+
+    .smallbox {
+        height: 80px;
+        margin-left: 135px;
+    }
+
+    .smallbox img {
+        margin-top: 4px;
+        height: 73px;
+        float: left;
+    }
+
+    .sub_menu {
+        float: left;
+        margin-top: 5px;
+        height: 73px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu div a:hover {
+        color: red;
+    }
+
+    /* 美丽文化子页面修饰 */
+    .page_list2>li {
+        width: 1000px;
+        list-style: none;
+        position: relative;
+    }
+
+    .page_list2>li:nth-child(1) {
+        height: 78px;
+    }
+
+    .page_list2>li:nth-child(2) {
+        height: 67px;
+    }
+
+    .page_list2>li:nth-child(3) {
+        height: 78px;
+    }
+
+    .page_list2>li:nth-child(4) {
+        height: 106px;
+    }
+
+    .page_list2>li:nth-child(5) {
+        height: 78px;
+    }
+
+    .page_list2>li:nth-child(6) {
+        height: 67px;
+    }
+
+    .page_list2>li:nth-child(even) {
+        background: black;
+    }
+
+    .page_list2>li:nth-child(odd) {
+        background: #fff;
+    }
+
+    .page_list2>li img {
+        position: absolute;
+    }
+
+    .page_list2>li:nth-child(1) img {
+        top: 6px;
+        width: 260px;
+        ;
+        right: 160px;
+    }
+
+    .page_list2>li:nth-child(2) img {
+        top: 10px;
+        width: 300px;
+        right: 100px;
+    }
+
+    .page_list2>li:nth-child(3) img:nth-child(1) {
+        top: 0px;
+        width: 180px;
+        left: 70px;
+    }
+
+    .page_list2>li:nth-child(3) img:nth-child(2) {
+        top: 15px;
+        width: 380px;
+        right: 52px;
+    }
+
+    .page_list2>li:nth-child(4)>img {
+        top: 30px;
+        width: 280px;
+        right: 74px;
+    }
+
+    .page_list2>li:nth-child(5) img:nth-child(1) {
+        top: 0;
+        left: 148px;
+        width: 114px;
+    }
+
+    .page_list2>li:nth-child(5) img:nth-child(2) {
+        top: 18px;
+        width: 374px;
+        right: 90px;
+    }
+
+    .page_list2>li:nth-child(6) img {
+        top: 33px;
+        width: 324px;
+        right: 104px;
+    }
+
+    .page2_nav {
+        position: absolute;
+        bottom: 2px;
+        left: 60px;
+        width: 329px;
+        height: 24px;
+    }
+
+    .under_line2 {
+        background: #646464;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        width: 265px;
+        height: 4px;
+        left: 102px;
+        bottom: 0;
+    }
+
+    .move_line2 {
+        width: 60px;
+        position: absolute;
+        left: 100px;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    .smallbox2 {
+        margin-left: 200px;
+        height: 100px;
+
+    }
+
+    .smallbox2 img {
+        margin-top: 2px;
+        height: 100px;
+        float: left;
+    }
+
+    .sub_menu2 {
+        float: left;
+        margin-top: 5px;
+        margin-left: 12px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu2 div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu2 div a:hover {
+        color: red;
+    }
+
+    /* 美丽事业子页面修饰 */
+    .page3-content {
+        width: 1000px;
+        height: 124px;
+        background: white;
+        position: relative;
+    }
+
+    .page3-content>img:nth-child(1) {
+        position: absolute;
+        width: 190px;
+        left: 95px;
+        top: 30px;
+    }
+
+    .page3-content>img:nth-child(2) {
+        position: absolute;
+        width: 280px;
+        right: 0;
+        top: 0;
+    }
+
+    .page3_nav {
+        position: absolute;
+        bottom: 2px;
+        left: 80px;
+        width: 329px;
+        height: 24px;
+    }
+
+    .under_line3 {
+        background: #646464;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        width: 265px;
+        height: 4px;
+        left: 120px;
+        bottom: 0;
+    }
+
+    .move_line3 {
+        width: 60px;
+        position: absolute;
+        left: 205px;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    .smallbox3 {
+        margin-left: 323px;
+        height: 107px;
+        margin-bottom: 10px;
+    }
+
+    .smallbox3 img {
+        margin-top: 2px;
+        height: 105px;
+        float: left;
+    }
+
+    .wrap-child {
+        width: 1440px;
+        height: 810px;
+    }
+
+    .sub_menu3 {
+        float: left;
+        margin-top: 5px;
+        margin-left: 12px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu3 div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu3 div a:hover {
+        color: red;
+    }
+
+    .page>img {
+        width: 1000px;
+    }
+}
+
+/* 适应于屏幕大于1440的布局 */
+@media(min-width:1440px) {
+    .banner {
+        width: 1440px;
+        margin: 0 auto;
+    }
+    /* 最外层元素修饰 */
+    .wrap {
+        width: 1440px;
+        height: 750px;
+        position: absolute;
+        margin-left: -720px;
+        left: 50%;
+        top: 6%;
+    }
+
+    /* 顶部内容修饰 */
+    .top {
+        margin-top: 24.5px;
+        height: 65px;
+        overflow: hidden;
+
+    }
+    .sideleft {
+        margin-left: 40px;
+        margin-top: 36px;
+        float: left;
+    }
+
+    .sideleft li {
+        height: 14px;
+        list-style: none;
+        float: left;
+        height: 14px;
+        line-height: 14px;
+    }
+
+    .sideleft li:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    .sideleft li:nth-child(3),
+    .sideleft li:nth-child(5) {
+        margin: 0 15px;
+        font-size: 12px;
+        color: #808081;
+    }
+
+    .sideleft li:last-child {
+        margin-left: 30px;
+    }
+
+    .sideleft li .cn {
+        color: white;
+    }
+
+    .sideleft li a {
+        color: #808081;
+        font-size: 12px;
+    }
+
+    .sideleft li a:hover {
+        color: #fff;
+    }
+
+    .logo {
+        float: right;
+        display: block;
+        margin-top: 20px;
+        margin-right: 66px;
+    }
+
+    /* 中间内容部分修饰 */
+    .content {
+        height: 426px;
+    }
+
+    .contentleft {
+        float: left;
+        width: 736px;
+        height: 100%;
+        overflow: hidden;
+        background: #fff;
+        font-size: 0;
+        position: relative;
+    }
+
+    /* 小导航部分修饰 */
+    .nav {
+        color: #646464;
+        position: absolute;
+        margin-left: 260px;
+        top: 360px;
+    }
+
+    .nav li {
+        float: left;
+        list-style: none;
+        margin-left: 63px;
+        cursor: pointer;
+    }
+
+    .nav li a {
+        color: #646464;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .nav li a:hover {
+        color: red;
+    }
+
+    /* content右边图片部分修饰 */
+    .content_right {
+        float: left;
+        height: 100%;
+        position: relative;
+        background-color: white;
+    }
+
+    .big_pics {
+        width: 702px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .big_pic {
+        position: absolute;
+        top: 0;
+        display: none;
+        left: 0;
+    }
+
+    .big_pic:first-child {
+        display: block;
+    }
+
+    .small_pics {
+        position: absolute;
+        top: 0;
+        left: 126px;
+        width: 314px;
+        height: 100%;
+        background-color: white;
+        border-left: 28px solid #f1f2f2;
+        border-right: 28px solid #f1f2f2;
+        overflow: hidden;
+    }
+
+    .small_pic {
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+    }
+
+    .small_pic:first-child {
+        display: block;
+    }
+
+    /* 底部内容修饰 */
+    .foot {
+        width: 1440px;
+        height: 320px;
+        margin-top: 0;
+        perspective: 1000px;
+        position: relative;
+    }
+    .box {
+        align-self: flex-start;
+        transform-style: preserve-3d;
+        margin: 0 auto;
+        font-size: 0;
+    }
+    /* 运动图片 */
+    .box img {
+        position: absolute;
+        width: 160px;
+        height: 160px;
+    }
+    
+    /* 子页面内容修饰 */
+    .page {
+        margin-top: 60px;
+        display: none;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        margin-left: -720px;
+        opacity: 0;
+        width: 1440px;
+    }
+
+    /* 美丽世界子页面修饰 */
+    .page-top {
+        margin-top: 24.5px;
+        height: 65px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .page-banner {
+        margin-top: 32px;
+        width: 1440px;
+        height: 642px;
+        position: relative;
+        background: white;
+        overflow: hidden;
+    }
+
+    .page-content {
+        width: 330px;
+        height: auto;
+        margin: 96px 0 0 124px;
+        position: relative;
+    }
+
+    /* 美丽世界子页面导航栏修饰、 */
+    .page-nav {
+        margin-top: 8px;
+        width: 329px;
+        height: 20px;
+    }
+
+    .page-nav li {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        list-style: none;
+        margin-left: 37px;
+        cursor: pointer;
+    }
+
+    .page-nav li a {
+        font-size: 18px;
+        color: black;
+    }
+
+    .page-nav1 {
+        color: red;
+    }
+
+    .under_line {
+        background: #646464;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        width: 289px;
+        height: 4px;
+        margin-left: 26px;
+    }
+
+    .move_line {
+        width: 71px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    
+    .subbox {
+        width: 600px;
+        height: 98px;
+        background: black;
+    }
+
+    .smallbox {
+        height: 98px;
+        margin-left: 149px;
+    }
+
+    .smallbox img {
+        margin-top: 5px;
+        height: 85px;
+        float: left;
+    }
+
+    .sub_menu {
+        float: left;
+        margin-top: 5px;
+        height: 80px;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu div a:hover {
+        color: red;
+    }
+    .page-img1 {
+        position: absolute;
+        display: inline-block;
+        width: 468px;
+        height: 118px;
+        top: 0;
+        right: 0;
+    }
+
+    .page-img2 {
+        position: absolute;
+        display: inline-block;
+        top: 100px;
+        width: 624px;
+        height: 475px;
+        right: 100px;
+    }
+
+    .page-img3 {
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        left: 200px;
+        width: 771px;
+        height: 190px;
+    }
+
+    /* 美丽文化子页面修饰 */
+    .page_list2>li {
+        width: 1440px;
+        list-style: none;
+        position: relative;
+    }
+
+    .page_list2>li:nth-child(1) {
+        height: 120px;
+    }
+
+    .page_list2>li:nth-child(2) {
+        height: 110px;
+    }
+
+    .page_list2>li:nth-child(3) {
+        height: 110px;
+    }
+
+    .page_list2>li:nth-child(4) {
+        height: 130px;
+    }
+
+    .page_list2>li:nth-child(5) {
+        height: 122px;
+    }
+
+    .page_list2>li:nth-child(6) {
+        height: 101px;
+    }
+
+    .page_list2>li:nth-child(even) {
+        background: black;
+    }
+
+    .page_list2>li:nth-child(odd) {
+        background: #fff;
+    }
+
+    .page_list2>li img {
+        position: absolute;
+    }
+
+    .page_list2>li:nth-child(1) img {
+        top: 6px;
+        right: 354px;
+    }
+
+    .page_list2>li:nth-child(2) img {
+        top: 14px;
+        right: 224px;
+    }
+
+    .page_list2>li:nth-child(3) img:nth-child(1) {
+        top: 0;
+        left: 106px;
+    }
+
+    .page_list2>li:nth-child(3) img:nth-child(2) {
+        top: 16px;
+        right: 52px;
+    }
+
+    .page_list2>li:nth-child(4)>img {
+        top: 36px;
+        right: 220px;
+    }
+
+    .page_list2>li:nth-child(5) img:nth-child(1) {
+        top: 0;
+        left: 176px;
+    }
+
+    .page_list2>li:nth-child(5) img:nth-child(2) {
+        top: 30px;
+        right: 230px;
+    }
+
+    .page_list2>li:nth-child(6) img {
+        top: 6px;
+        right: 124px;
+    }
+
+    .page2_nav {
+        position: absolute;
+        bottom: 2px;
+        left: 118px;
+        width: 329px;
+        height: 24px;
+    }
+
+    .under_line2 {
+        background: #646464;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        width: 289px;
+        height: 4px;
+        left: 143px;
+        bottom: 0;
+    }
+
+    .move_line2 {
+        width: 71px;
+        position: absolute;
+        left: 107px;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    .smallbox2 {
+        margin-left: 248px;
+        height: 130px;
+
+    }
+
+    .smallbox2 img {
+        margin-top: 2px;
+        height: 126px;
+        float: left;
+    }
+
+    .sub_menu2 {
+        float: left;
+        margin-top: 5px;
+        margin-left: 12px;
+        height: 121px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu2 div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu2 div a:hover {
+        color: red;
+    }
+
+    /* 美丽事业子页面修饰 */
+    .page3-content {
+        width: 1440px;
+        height: 176px;
+        background: white;
+        position: relative;
+    }
+
+    .page3-content>img:nth-child(1) {
+        position: absolute;
+        left: 95px;
+        top: 50px;
+    }
+
+    .page3-content>img:nth-child(2) {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .page3_nav {
+        position: absolute;
+        bottom: 2px;
+        left: 100px;
+        width: 329px;
+        height: 24px;
+    }
+
+    .under_line3 {
+        background: #646464;
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        width: 289px;
+        height: 4px;
+        left: 120px;
+        bottom: 0;
+    }
+
+    .move_line3 {
+        width: 71px;
+        position: absolute;
+        left: 218px;
+        top: 0;
+        height: 4px;
+        background: red;
+    }
+
+    .smallbox3 {
+        margin-left: 336px;
+        height: 107px;
+    }
+
+    .smallbox3 img {
+        margin-top: 2px;
+        height: 105px;
+        float: left;
+    }
+
+    .wrap-child {
+        width: 1440px;
+        height: 810px;
+    }
+
+    .sub_menu3 {
+        float: left;
+        margin-top: 5px;
+        margin-left: 12px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sub_menu3 div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .sub_menu3 div a:hover {
+        color: red;
+    }
+
+}

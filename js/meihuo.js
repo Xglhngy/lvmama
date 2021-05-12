@@ -1,0 +1,26 @@
+$("#dian").click(function(){
+    $(this).css("display","none")
+    $(".sou").css("display","block")
+    $(".er").css("display","block")
+    $(".yi").css("display","block")
+    $(".icon-1").css("display","block")
+})
+$(".noto").click(function(){
+    $("#dian").css("display","block")
+    $(".sou").css("display","none")
+    $(".er").css("display","none")
+    $(".yi").css("display","none")
+    $(".icon-1").css("display","none")
+})
+$(".dian").each(function(index,val){
+    $(this).click(function(){
+        $(".er1").css("display","none").eq(index).css("display","block");
+        $(this).css("display","none");
+    })
+})
+$(".no").each(function(index,val){
+    $(this).click(function(){
+        $(".er1").eq(index).css("display","none")
+        $(".dian").css("display","block");
+    })
+})

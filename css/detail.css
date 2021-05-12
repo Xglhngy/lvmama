@@ -1,0 +1,741 @@
+
+.box{
+    width: 1190px;
+    height: 8214px;
+    position: relative;
+    margin-left: 19%;
+    /* margin-top: 40px; */
+}
+.top-fdj{
+    width: 100%;
+}
+#disp{
+    width: 480px;
+    height: 480px;
+    background: url('../images/2lfl.jpg')no-repeat;
+    background-size: 1280px;
+    display: none;
+    position: absolute;
+    top:-160px;
+    left:320px;
+    z-index: 10;
+    margin-top: 40px;
+}
+.view{
+    width: 320px;
+}
+.tople{
+    float: left;
+    width: 320px;
+    height: 400px;
+}
+.toprt{
+    float: left;
+    width: 830px;
+    height: 400px;
+    margin-left: 40px;
+    background-color: white;
+    position: relative;
+}
+.eye{
+    cursor:crosshair;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #ccc  no-repeat;
+    opacity: .5;
+    top:0;
+    left:0;
+    display: none;
+}
+#ppx{
+    cursor:crosshair;
+    width: 320px;
+}
+.lun{
+    width: 320px;
+    height: 50px;
+    margin-top: 30px;
+}
+.lun1{
+    float: left;
+    margin-top: 12px;
+    margin-right: 16px; 
+}
+.lun2{
+    float: right;
+    margin-top: -40px;
+    margin-left: 16px;
+    display:none;
+}
+.lun ul img{
+    width: 50px;
+}
+.lun ul{
+    width: 250px;
+    height: 54px;
+    margin-left: 35px;
+    overflow: hidden;
+}
+.img-da{
+    position: absolute;
+    top: 365px;
+    left: 307px;
+    background: url(../images/jlt.png)-24px -34px no-repeat;
+    width: 11px;
+    height: 22px;
+    z-index: 4;
+    /* display: none; */
+}
+.img-xiao{
+    position: absolute;
+    top: 367px;
+    left: 4px;
+    background: url(../images/jlt.png)-60px -18px no-repeat;
+    width: 11px;
+    height: 22px;
+    z-index: 4;
+    display: none;
+    margin-right: 31px;
+}
+.lun ul li{
+    float: left;
+}
+.boq{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.boq h1{
+    font-size: 20px;
+    color: #000;
+}
+.boq span{
+    font-size: 14px;
+}
+.boq p{
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+.boq img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.jia{
+    width: 100%;
+    height: 24px;
+    margin-top: 19px;
+}
+.jia1{
+    font-size: 12px;
+}
+.jia2{
+    font-size: 14px;
+    margin-left: 50px;
+}
+.jia3{
+    font-size: 24px;
+}
+.jia4{
+    position: absolute;
+    left: 165px;
+    top:105px;
+    width: 35px;
+    height: 20px;
+    background-color: red;
+    font-size: 13px;
+    color:white;
+    text-align: center
+}
+.gui{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.gui1{
+    font-size: 12px;
+}
+.gui2{
+    position: absolute;
+    font-size:  12px;
+    border: 1px solid;
+    top:2px;
+    left: 80px;
+    width: 60px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+}
+.tet{
+    position: absolute;
+    left: 80px;
+    top: 190px;
+}
+.tet1{
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    left: 1px;
+    bottom: -40px;
+    background-color: white;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #ccc;
+}
+.tet2{
+    width: 175px;
+    height: 40px;
+    font-size: 17px;
+    position: absolute;
+    top: 0px;
+    left: 85px;
+    color: white;
+    background-color: red;
+}
+.tet2 span{
+    margin-left: 30px;
+    line-height:40px; 
+}
+.tet3{
+    position: absolute;
+    top: 8px;
+    left: 95px;
+    background: url(../images/jlt.png)-24px -15px no-repeat;
+    width: 16px;
+    height: 22px;
+}
+.tet2:hover{
+    background-color: #000;
+}
+.tet4{
+    position: absolute;
+    width: 19px;
+    height: 18px;
+    border: 1px solid #a9a9a9;
+    top: 20px;
+    left: 55px;
+}
+.tet5 div{
+    position: absolute;
+    left:5px;
+    top:7px;
+    background: url(../images/jlt.png)-51px -18px no-repeat;
+    width: 10px;
+    height: 6px;
+}
+.tet4 div{
+    position: absolute;
+    left:5px;
+    top:7px;
+    background: url(../images/jlt.png)-40px -18px no-repeat;
+    width: 10px;
+    height: 6px;
+    display:none;
+}
+.tet4 p{
+    position: absolute;
+    left:5px;
+    top:7px;
+    background: url(../images/jlt.png)-40px -42px no-repeat;
+    width: 10px;
+    height: 6px;
+}
+.tet5{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #a9a9a9;
+    top: 0px;
+    left: 55px;
+}
+/* 以上为top部分 */
+.middle{
+    float: left;
+    width: 180px;
+    height: 5000px;
+}
+.middle ul li p:hover{
+    color: red;
+}
+.middle ul{
+    margin-top: 30px;
+}
+.cai{
+    font-size: 16px;
+    border-bottom: 1px solid;
+    padding-bottom: 27px;
+    margin-top: 10px;
+    height: 1px;
+}
+.cai1{
+    text-align: center;
+    margin-top: 40px;
+}
+.cai1 img{
+    width: 160px;
+}
+.cai4{
+    font-size: 14px;
+    text-align: center;
+}
+.cai5{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+}
+.cai2{
+    border-bottom:1px solid; 
+    float: left;
+    width: 12px;
+    height: 1px;
+    margin-left: 46%;
+    margin-top: 3px;
+}
+.cai3{
+    text-align: center;
+    margin-top: 10px;
+}
+.qian{
+    font-size: 12px;
+}
+#middle-top{
+    float: left;
+    width: 1010px;
+}
+.middle-navtop{
+    float: left;
+    width: 990px;
+    height: 26px;
+    margin-left: 20px;
+    border-bottom: 1px solid ;
+    margin-top: 9px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    top: 0px;
+}
+.middle-navtop a{
+    display: inline-block;
+    text-align: center;
+    width: 90px;
+}
+.middle-ji1{
+    border-bottom: 2px solid;
+    padding-bottom:3px ;
+    /* display:none; */
+}
+.middle-rt{
+    width: 100%;
+    height:6010px ; 
+    float: left;
+    margin-top: 25px;
+    border-left: 1px solid #ccc;
+}
+.middle-ge{
+    font-size: 12px;
+    margin-left: 40px;
+}
+.middle-hao{
+    font-size: 12px;
+    margin-left: 130px;
+}
+.middle-img{
+    text-align: center;
+    font-size: 0;
+}
+.middle-imgtop{
+    margin-top: 50px;
+}
+.middle-imgbottom{
+    /* border-bottom: 1px solid; */
+}
+/* 以上为img部分结构 */
+#topnav2-ais{
+    float: left;
+    width: 960px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+#topnav3-ais{
+    width: 960px;
+    text-align: center;
+    border-left:1px solid #ccc;
+    float: left;
+}
+#topnav4-ais{
+    width: 960px;
+    border-left:1px solid #ccc;
+    float: left;
+}
+.express-song{
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.middle-comments{
+    float: left;
+    width: 960px;
+    height: 135px;
+    text-align: center;
+    border-top:1px solid #ccc;
+    margin-left: 2.5%;
+}
+.gwc{
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    position: fixed;
+    top: 0px;
+    right: 365px;
+    color: white;
+    background-color: red;
+    display: none;
+    z-index: 5;
+}
+.gwc span{
+    margin-left: 30px;
+    line-height:60px; 
+}
+.gwc1{
+    position: absolute;
+    top: 17px;
+    left: 95px;
+    background: url(../images/jlt.png)-24px -15px no-repeat;
+    width: 16px;
+    height: 22px;
+}
+.gwc:hover{
+    background-color: #000;
+}
+/* 顶部导航部分结构 */
+.lin-jia{
+    margin-left: 2.5%;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.xun{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.comments{
+    font-size: 24px;
+    margin-top: 50px;
+}
+.ping{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.comments-hu{
+    width: 960px;
+    height: 195px;
+    margin-top: 30px;
+}
+.comments-du{
+    float: right;
+    width: 80px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+.comments-hu img{
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.comments-wei{
+    float: left;
+    font-size: 12px;
+    margin-left:40px;
+    width:815px;
+    height: 50px;
+    color: #666;
+}
+.comments-hao{
+    float: left;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* width: 100%; */
+}
+.comments-shu{
+    font-size: 32px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -45px;
+}
+.comments-ri{
+    font-size: 12px;
+    float: right;
+    margin-right: -42px;
+}
+.comments-xing{
+    background: url(../images/jlt1.png)0px 77px;
+    width: 80px;
+    height: 13px;
+    float: right;
+    margin-top: 15px;
+    margin-right: -70px;
+}
+.comments-fen{
+    background: url(../images/jlt.png)0px -16px no-repeat;
+    width: 24px;
+    height: 17px;
+    float: left;
+    margin-top: 35px;
+    margin-left: -55px;
+}
+/* 以上为评论部分 */
+.middle-wen{
+    float: left;
+    width: 960px;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-top: 30px;
+    border-bottom: 1px solid#999; 
+    padding-bottom: 30px;
+}
+.middle-fun{
+    background: url(../images/jlt1.png) no-repeat;
+    background-position:-0px -105px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 325px;
+}
+.middle-yi{
+    margin-left: 30px;
+    float: left;
+    font-size: 21px;
+    margin-top: 5px;
+    color: #999;
+}
+.middle-zi{
+    float: right;
+    width: 126px;
+    height: 40px;
+    background-color: #e00;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    line-height: 40px;
+}
+.middle-zi:hover{
+    background-color: #000;
+}
+.express-zhi{
+    width: 960px;
+    height: 70px;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 20px;
+}
+.express-zhi p{
+    font-size: 14px;
+}
+.express-zhe{
+    color: #ccc;
+    margin-top: 10px;
+}
+.express-xuan{
+    float: left;
+    font-size: 14px;
+    margin-left: 2.5%;
+    width: 960px;
+    word-break: break-all;
+    margin-bottom: 50px;
+    letter-spacing:1px;
+}
+.express-ou{
+    margin-top: 10px;
+    text-indent:2em;
+    color: #333;
+}
+.express-ji{
+    margin-top: 20px;
+    color: #333;
+}
+.legal{
+    float: left;
+    margin-left: 2.5%;
+    width: 960px;
+    font-size: 14px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.legal p{
+    margin-top: 3px;
+    letter-spacing:1px;
+}
+.middle-bottom{
+    float: left;
+    width: 960px;
+    margin-left: 2.5%;
+    font-size: 14px;
+    letter-spacing:1px;
+    margin-top: 40px;
+}
+.middle-bottom li{
+    margin-top: 10px;
+}
+/* 以上为退换货部分结构 */
+.footer{
+    width: 1190px;
+    margin-left: 20%;
+    /* background-color: pink; */
+    height: 1000px;
+}
+.footer ul{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+}
+.footer ul li{
+    width: 236px;
+    height: 96px;
+    float: left;
+}
+#fanr{
+    height: 24px;
+    width: 1px;
+    background-color: #9d9d9d;
+    margin-bottom: 17px;
+    margin-top: 35px;
+}
+.footer ul li p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.footer-shun div{
+    background: url(../images/jlt2.png) no-repeat;
+    background-position:-139px -0px;
+    width: 43px;
+    height: 48px;
+    margin-left: 96px;
+}
+.footer-feng div{
+    background: url(../images/jlt2.png) no-repeat;
+    background-position:-90px -0px;
+    width: 43px;
+    height: 48px;
+    margin-left: 96px;
+}
+.footer-guan div{
+    background: url(../images/jlt2.png) no-repeat;
+    background-position:-90px -0px;
+    width: 43px;
+    height: 48px;
+    margin-left: 96px;
+}
+.footer-wu div{
+    background: url(../images/jlt2.png) no-repeat;
+    background-position:-186px -0px;
+    width: 43px;
+    height: 48px;
+    margin-left: 96px;
+}
+.footer-an div{
+    background: url(../images/jlt2.png) no-repeat;
+    background-position:-50px -0px;
+    width: 41px;
+    height: 48px;
+    margin-left: 96px;
+}
+.nav-right{
+    position: fixed;
+    right: 300px;
+    bottom: 70px;
+    width: 40px;
+    height: 200px;
+    background-color: #aaaaaa;
+    display: none;
+}
+.nav-right li{
+    width: 40px;
+    height: 40px;
+}
+.nav-ren1,.nav-bao1,.nav-er1,.nav-sho1,.nav-jian1{
+    display: none;
+    float: right;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 40px;
+    background-color:#494949;
+    color: white; 
+}
+.nav-ren,.nav-bao,.nav-er,.nav-sho,.nav-jian{
+    float: left;
+}
+.nav-ren{
+    background: url(../images/jlt3.png) no-repeat;
+    background-position:-0px -0px;
+    width: 40px;
+    height: 40px;
+}
+.nav-ren:hover{
+    background-color: #494949;
+}
+.nav-ren:hover .nav-ren1{
+    display: block;
+}
+.nav-bao{
+    background: url(../images/jlt3.png) no-repeat;
+    background-position:-0px -40px;
+    width: 40px;
+    height: 40px;
+}
+.nav-bao:hover{
+    background-color: #494949;
+}
+.nav-bao:hover .nav-bao1{
+    display: block;
+}
+.nav-er{
+    background: url(../images/jlt3.png) no-repeat;
+    background-position:-0px -160px;
+    width: 40px;
+    height: 40px;
+}
+.nav-er:hover{
+    background-color: #494949;
+}
+.nav-er:hover .nav-er1{
+    display: block;
+}
+.nav-sho{
+    background: url(../images/jlt3.png) no-repeat;
+    background-position:-0px -240px;
+    width: 40px;
+    height: 40px;
+}
+.nav-sho:hover{
+    background-color: #494949;
+}
+.nav-sho:hover .nav-sho1{
+    display: block;
+}
+.nav-jian{
+    background: url(../images/jlt3.png) no-repeat;
+    background-position:-0px -280px;
+    width: 40px;
+    height: 40px;
+}
+.nav-jian:hover{
+    background-color: #494949;
+}
+.nav-jian:hover .nav-jian1{
+    display: block;
+}
+.nav-right li div{
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
